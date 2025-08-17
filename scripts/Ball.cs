@@ -2,7 +2,7 @@ using Godot;
 
 public partial class Ball : Area2D
 {
-    [Export] public double MoveSpeed = 100;
+    public double MoveSpeed = 500;
     [Export] public Vector2 Direction = Vector2.Left;
 
     private AudioStreamPlayer bounceSound;
